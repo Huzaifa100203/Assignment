@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    row-gap: 100px;
+}
+.box, .box2{
+    width: 400px;
+    height: 350px;
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+.box:nth-child(2){
+    background-image: url(ola\ mobil.avif);
+    position: relative;
+    button{
+        background-color: #F4CE2B;
+        width: 32%;
+        height: 30px;
+        border-radius: 30px;
+        position: absolute;
+        bottom: 40px;
+        left: 51px;
+        border: none;
+        a{
+            text-decoration: none;
+            color: #2B2928;
+        }
+    }
+}
+.box:nth-child(3){
+    background-image: url(450x.webp);
+    position: relative;
+    button{
+        background-color: #f42b2b;
+        width: 32%;
+        height: 35px;
+        border-radius: 30px;
+        position: absolute;
+        bottom: 10px;
+        left: 120px;
+        border: none;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+}
+.box:nth-child(4){
+    background-image: url(Villa.jpeg);
+    height: 550px;
+    position: relative;
+    button{
+        background-color: #CED6D9;
+        width: 45%;
+        height: 35px;
+        border-radius: 30px;
+        position: absolute;
+        bottom: 10px;
+        left: 120px;
+        border: none;
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+        }
+    }
+}
+img{
+    width: 7%;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+.box:nth-child(5){
+    background-image: url(IEA.avif);
+    height: 300px;
+    width: 550px;
+    background-size: 100%;
+    position: relative;
+    button{
+        background-color: #274865;
+        width: 45%;
+        height: 35px;
+        border-radius: 30px;
+        position: absolute;
+        bottom: 10px;
+        left: 140px;
+        border: none;
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+        }
+    }
+}
+.box:last-child{
+   background-image: url(golf.avif);
+   height: 400px;
+    width: 600px;
+    position: relative;
+    button{
+        background-color: #CED6D9;
+        width: 25%;
+        height: 35px;
+        border-radius: 30px;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        border: none;
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+        }
+    }
+}
+.box2:nth-child(2){
+    background-image: url(sofa.jpg);
+    width: 450px;
+    height: 250px;
+    position: relative;
+    button{
+        width: 25%;
+        height: 35px;
+        background-color: #4F6D38;
+        border-radius: 30px;
+        margin-left: 170px;
+        margin-top: 210px;
+        border: none;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+h6{
+   font-size: 25px;
+}
+.box2:nth-child(3){
+    background-image: url(cranbery.avif);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    button{
+        width: 40%;
+        height: 35px;
+        background-color: #D97E1B;
+        border-radius: 30px;
+        margin-left: 120px;
+        margin-top: 20px;
+        border: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+.box2:nth-child(4){
+    background-image: url(House.jpg);
+    width: 450px;
+    height: 600px;
+    position: relative;
+    button{
+        width: 40%;
+        height: 35px;
+        background-color: #2B2928;
+        border-radius: 30px;
+        margin-left: 200px;
+        margin-top: 350px;
+        border: none;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.box2:nth-child(5){
+    background-image: url(planti.avif);
+    height: 400px;
+    width: 600px;
+    background-size: 100%;
+    position: relative;
+    button{
+        position: absolute;
+        bottom: 10px;
+        right: 40%;
+        width: 25%;
+        background-color: #84fab0;
+        height: 35px;
+        border-radius: 30px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+    }
+}
+.box2:last-child{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: space-around;
+   flex-direction: column;
+   background-color: #FECCB4;
+   position: relative;
+   h2{
+    margin-top: 40px;
+    color: #373737;
+    font-size: 50px;
+   }
+}
+.box3{
+    width: 120px;
+    background-color: #373737;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    button{
+        border: 1px solid;
+        font-size: 13px;
+        font-weight: 600;
+        transform: translate(-5px, -5px);
+        width: 120px;
+        height: 40px;
+        background-color: #95E3DE;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+        a{
+            color: #373737;
+            text-decoration: none;
+        }
+    }
+    
+}
+.website{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    row-gap: 50px;
+}
+/** Text Gradient Example */ 
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#092ee4, #eb0b0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+   }
+   
+.ui{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    row-gap: 50px;
+  
+}
